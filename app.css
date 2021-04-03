@@ -1,0 +1,42 @@
+body{
+  background-color: hsl(204, 43%, 93%);
+}
+
+main{
+  border: 2px solid black;
+  border-radius: 5px;
+  display: flex;
+  margin: 0 auto;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15%;
+  width: 40%;
+  height: 40%;
+}
+
+#top{
+  justify-self: center; 
+  padding: 10px 20px 10px 15px;
+  background-color: white;
+}
+
+#top p{
+  font-size: 16px;
+}
+
+#left{
+  background-color: hsl(179, 62%, 43%);
+  width: 20%;
+  height: 20%;
+  align-self: flex-start;
+  flex-grow: 1;
+}
+
+#right{
+  background-color: hsla(179, 62%, 43%, 0.5);
+  width: 20%;
+  height: 20%;
+  align-self: flex-end;
+  flex-grow: 1;
+}
