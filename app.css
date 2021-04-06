@@ -14,6 +14,9 @@ main{
   margin-top: 15%;
   width: 40%;
   height: 40%;
+  background-color: hsl(179, 62%, 43%);
+  
+  
 }
 
 /* -- top section styling starts here -- */
@@ -48,7 +51,7 @@ main{
 /* -- bottom left section styling starts here -- */
 
 #left{
-  background-color: hsl(179, 62%, 43%);
+  /* background-color: hsl(179, 62%, 43%); */
   width: 20%;
   height: 20%;
   align-self: flex-start;
@@ -57,6 +60,7 @@ main{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #left h2{
@@ -90,13 +94,22 @@ main{
 }
 
 section button{
-  font-size: 20px;
+  background-color: hsl(71, 73%, 54%);
+  font-size: 15px;
+  font-weight: 700;
+  border: 0;
+  border-radius: 5px;
+  color: hsl(204, 43%, 93%);
   /* position: relative;
   width: 40%;
   height: 50%; */
   /* margin-left: 40px;  */ 
   align-self: center;
-  
+  /* margin-bottom: 20px; */ /* Test */
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 /* -- bottom left section styling ends here -- */
@@ -106,12 +119,14 @@ section button{
 /* -- bottom right section styling starts here -- */
 
 #right{
-  background-color: hsla(179, 62%, 43%, 0.8);
+  background-color: hsla(0, 0%, 100%, 0.15);
   width: 20%;
   height: 20%;
   align-self: flex-end;
   flex-grow: 1;
   color: hsl(204, 43%, 93%);
+  padding-bottom: 20px;
+  /* margin-bottom: 20px; */  /* Test */
 }
 
 #right h2{
