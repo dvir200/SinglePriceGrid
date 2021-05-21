@@ -4,7 +4,7 @@ body{
 
 main{
   font-family: 'Karla', sans-serif;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   border-radius: 5px;
   display: flex;
   margin: 0 auto;
@@ -26,6 +26,8 @@ main{
   padding: 10px 20px 10px 15px;
   background-color: white;
   padding-left: 2em;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 #top h2{
@@ -103,8 +105,13 @@ section button{
   /* margin-left: 40px;  */ 
   align-self: center;
   /* margin-bottom: 20px; */ /* Test */
+  transition: 0.5s;
+  padding: 15px 90px;
+}
 
-  padding: 15px 90px ;
+button:hover{
+  background-color: #e63946;
+
 }
 
 /* -- bottom left section styling ends here -- */
